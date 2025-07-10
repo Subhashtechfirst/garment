@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title>
+	<style type="text/css">
+		body{
+		background-color:#1d143e;
+		color: #9c89e1;
+		}
+		.hr{
+			background-color: #9c89e1;
+			color: #9c89e1;
+			height: 1px;
+    		border: none;
+		}
+		label{display: block;}
+		input, select{
+			width: 100%;
+			background-color: transparent;
+			border-color: transparent;
+		}
+		.parent{
+			display: flex;
+			align-items: end;
+		}
+		.parent div{
+			flex: 1;
+			margin: 10px;
+		}
+		.child{
+			margin: 20px;
+		}
+		.center-div{
+			text-align: center;
+			color: white;
+
+		}
+
+		.main{
+			border:1px solid #9c89e1;
+			border-radius: 10px;
+			padding: 20px;
+			margin: 30px;
+		}
+		.fa-mobile{
+			font-size: 41px;	
+		}
+		.fa-user, .fa-envelope{
+			font-size: 24px;
+		}
+		.color-one{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<section class="main">
+		<div class="center-div">
+			<h1>Event Registration</h1>
+			<p>Registr with us to get more details.</p>
+
+		</div>
+		<div class="child">
+			<label class="color-one">Name</label>
+			<section class="parent">
+				<div>
+					<i class='fa fa-user-friends'></i>
+					<input type="text" name="">
+					<hr class="hr">
+					<label>First</label>
+				</div>
+				<div>
+					<i></i>
+					<input type="text" name="">
+					<hr class="hr">
+					<label>Last</label>
+				</div>
+			</section>
+
+		</div>
+		<div class="child">
+					<label class="color-one">Email</label>
+					<i class='fa fa-envelope'></i>
+					<input type="text" name="">
+					<hr class="hr">
+				</div>
+				<div class="child">
+					<label class="color-one">Phone</label>
+					<i class='fa fa-mobile'></i>
+					<input type="" name="">
+					<hr class="hr">
+				</div>
+				<div class="child">
+					<label class="color-one">Size</label>
+					<select>
+						<option> </option>
+						<option>SM</option>
+						<option>MD</option>
+						<option>LG</option>
+					</select>
+					<hr class="hr">
+				</div>
+				<div class="child">
+					<label class="color-one">Preferred Slot</label>
+					<select>
+						<option> </option>
+						<option>10 To 12</option>
+						<option>12 To 02</option>
+						<option>02 To 04</option>
+					</select>
+					<hr class="hr">
+				</div>
+	</section>
+
+</body>
+</html>

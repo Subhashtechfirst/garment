@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			
+background-image: linear-gradient(to right, indigo,violet);
+		}
+		section{
+			height: 98vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		#left{
+          width: 300px;
+          background-color: lightgray;
+          height: 400px;
+          padding: 20px;
+          border:1px solid lightgray;
+          transform: skewY(10deg);
+		}
+
+
+		#left h1{
+			text-align: center;
+			color: white;
+			font-size: 2rem;
+		}
+		#left p{
+			text-align: justify;
+			text-indent: 100px;
+		}
+		#left button{
+			padding: 7px 20px;
+			background-color: #0b7f9f;
+    		border: none;
+    		color: white;
+    		border-radius: 5px;
+		}
+
+		#right{
+transform: skewY(10deg);
+         width: 300px;
+         border:1px solid lightgray;
+          height: 400px;
+          padding: 20px;
+          background-color: white;
+		}
+		#right h1{
+			text-align: center;
+			font-size: 2rem;
+
+		}
+		#right form{
+			margin-top: 50px;
+		}
+		#right div{
+
+		}
+		#right input{
+			padding: 5px;
+		    width: 96%;
+		    margin-bottom: 11px;
+		}
+		#right button{
+			padding: 7px 20px;
+			background-color: #0b7f9f;
+    		border: none;
+    		color: white;
+    		border-radius: 5px; 
+		}
+
+	</style>
+</head>
+<body>
+   <section>
+   	 <div id="left">
+   	 	<h1>Syber.infortech.com</h1>
+   	 	<p>
+   	 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   	 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   	 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   	 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   	 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   	 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+   	 	</p>
+   	 	<button>Join Us</button>
+   	 </div>
+   	 <div id="right">
+   	 	<h1>Login Page</h1>
+   	 	<hr>
+   	 	<form>
+   	 		<div>
+   	 			<input type="text" name="username" placeholder="Enter your Name">
+   	 		</div>
+   	 		<div>
+   	 			<input type="email" name="useremail" placeholder="Enter your Email">
+   	 		</div>
+   	 		<div>
+   	 			<input type="password" name="userpassword" placeholder="Enter your Password">
+   	 		</div>
+   	 		<div id="btn">
+   	 			<button type="submit">Login</button>
+   	 			<button type="reset">Cancel</button>
+   	 		</div>
+   	 	</form>
+   	 </div>
+   </section>
+</body>
+</html>
